@@ -1,0 +1,59 @@
+Arguments: 
+  C:\NodeJs\node.exe C:\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\NodeJs\;C:\Yarn\bin\;C:\Users\edilt\AppData\Local\Microsoft\WindowsApps;C:\Users\edilt\AppData\Roaming\npm;C:\Users\edilt\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.2
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: https://registry.yarnpkg.com/grommet/-/grommet-2.15.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Yarn\lib\cli.js:141375:19)
+      at Object.onceWrapper (events.js:416:28)
+      at ClientRequest.emit (events.js:310:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:714:9)
+      at Object.onceWrapper (events.js:416:28)
+      at TLSSocket.emit (events.js:310:20)
+      at TLSSocket.Socket._onTimeout (net.js:479:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "react",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {
+      "form-hooks": "^0.7.0",
+      "grommet": "^2.14.0",
+      "materialize-css": "^1.0.0",
+      "react": "^16.12.0",
+      "react-dom": "^16.12.0",
+      "react-is": ">= 16.8.0",
+      "react-scripts": "^3.4.1",
+      "styled-components": "^5.1.1",
+      "typescript": "^3.2.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "devDependencies": {
+      "react-scripts": "latest"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
